@@ -1,0 +1,19 @@
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "{{email}}",
+  "password": "{{password}}"
+}
+
+
+###
+
+POST {{baseUrl}}/users/verify-email
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "code": "123456"
+}

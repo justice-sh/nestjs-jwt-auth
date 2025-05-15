@@ -1,0 +1,16 @@
+{
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "email": "test@mail.com",
+      "password": "KininaniHd#123",
+      "authorization": "Authorization: Bearer token-goes-here",
+    },
+    "local": {
+      "baseUrl": "http://localhost:3000",
+    },
+    "staging": {
+      "baseUrl": "http://localhost:3000",
+    },
+    "production": {}
+  }
+}

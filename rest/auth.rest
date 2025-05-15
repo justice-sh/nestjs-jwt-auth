@@ -1,0 +1,20 @@
+POST {{baseUrl}}/auth
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "password": "{{password}}"
+}
+
+
+###
+
+POST {{baseUrl}}/auth/me
+Content-Type: application/json
+{{authorization}}
+
+###
+
+Get {{baseUrl}}/auth/google
+Content-Type: application/json
+
