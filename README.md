@@ -2,7 +2,18 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
-# JWT (OAuth, Credential) Authentication with Node + NestJs + TypesScript
+# AuthNest
+
+## Description
+
+NestJS-powered authentication with OAuth, JWT, and credentials—secure and seamless.
+
+## Features
+
+- Custom config with type-safety and env validation with zod
+- OAuth2.0 with passport
+- Custom credential auth
+- JWT based authentication
 
 ## Project setup
 
@@ -14,7 +25,7 @@ $ pnpm install
 
 ## Env vars
 
-Provide the necessary environment variables specified in `.env.example`
+Provide the necessary environment variables specified in `.env.example` or visit [`./src/shared/schemas/env.ts`](./src/shared/schemas/env.ts) to see the env schema definition.
 
 ## Compile and run the project
 
@@ -68,16 +79,16 @@ Check out a few resources that may come in handy when working with NestJS:
 - To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
 - Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
-## Support
+<!-- ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support). -->
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Justice N.](https://x.com/_justice_sh)
+<!-- - Website - [https://nestjs.com](https://nestjs.com/) -->
+- Twitter - [@\__justice_sh_](https://x.com/_justice_sh)
 
 ## License
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+AuthNest is **MIT licensed.**
