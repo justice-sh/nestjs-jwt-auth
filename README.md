@@ -25,7 +25,7 @@ $ pnpm install
 
 ## Env vars
 
-Provide the necessary environment variables specified in `.env.example` or visit [`./src/shared/schemas/env.ts`](./src/shared/schemas/env.ts) to see the env schema definition.
+Provide the necessary environment variables specified in [`.env.example`](.env.example) or visit [`./src/shared/schemas/env.ts`](./src/shared/schemas/env.ts) to see the env schema definition.
 
 ## Compile and run the project
 
