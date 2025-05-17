@@ -86,8 +86,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## Stay in touch
 
 - Author - [Justice N.](https://x.com/_justice_sh)
-<!-- - Website - [https://nestjs.com](https://nestjs.com/) -->
 - Twitter - [@\__justice_sh_](https://x.com/_justice_sh)
+<!-- - Website - [https://nestjs.com](https://nestjs.com/) -->
 
 ## License
 
